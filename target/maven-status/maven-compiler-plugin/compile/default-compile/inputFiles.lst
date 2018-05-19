@@ -1,3 +1,8 @@
-C:\Users\danie\Documents\AremTercio2ProyectoB\ServidorWeb\src\main\java\main\httpserver\Main.java
-C:\Users\danie\Documents\AremTercio2ProyectoB\ServidorWeb\src\main\java\main\httpserver\IntermediarioController.java
-C:\Users\danie\Documents\AremTercio2ProyectoB\ServidorWeb\src\main\java\main\httpserver\Factura.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\Factura.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\api\FormatoCliente.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\IntermediarioController.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\envio\EnvioCorreoFacturas.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\FormatoJSON.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\api\Formato.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\api\FormatoDIAN.java
+C:\Users\danie\Documents\Universidad\ServidorWebFactura\src\main\java\main\factura\Main.java

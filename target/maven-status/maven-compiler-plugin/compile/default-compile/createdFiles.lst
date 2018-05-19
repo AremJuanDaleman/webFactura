@@ -1,3 +1,8 @@
-main\httpserver\Main.class
-main\httpserver\IntermediarioController.class
-main\httpserver\Factura.class
+main\factura\api\Formato.class
+main\factura\Factura.class
+main\factura\api\FormatoDIAN.class
+main\factura\envio\EnvioCorreoFacturas.class
+main\factura\Main.class
+main\factura\FormatoJSON.class
+main\factura\api\FormatoCliente.class
+main\factura\IntermediarioController.class

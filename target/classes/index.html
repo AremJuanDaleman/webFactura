@@ -34,8 +34,9 @@
                                 </div>
                             </div>                        
 
-                            <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="Controlador.subir();">
-
+                            <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick='this.form.action="/solicitud/factura/"+ 
+                                                                                                            document.getElementById("cliente").value+ 
+                                                                                                            + document.getElementById("empleado").value;'>
 
                         </fieldset>
                     </form>
