@@ -17,10 +17,10 @@ public class EnvioCorreoFacturas {
     public static void send(String f){
        try{
            String host = "smtp.gmail.com";
-           String user = "aremprueba@gmail.com";
-           String pass = "arem2018-1";
-           String to = "aremprueba@gmail.com";
-           String from = "aremprueba@gmail.com";
+           String user = "";
+           String pass = ";
+           String to = "";
+           String from = "";
            String subject = "FACTURA ELECTRONICA";
            String messageText = f;
            boolean sessionDebug = false;
