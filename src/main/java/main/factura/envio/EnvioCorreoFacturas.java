@@ -18,7 +18,7 @@ public class EnvioCorreoFacturas {
        try{
            String host = "smtp.gmail.com";
            String user = "";
-           String pass = ";
+           String pass = "";
            String to = "";
            String from = "";
            String subject = "FACTURA ELECTRONICA";

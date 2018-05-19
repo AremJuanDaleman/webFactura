@@ -28,7 +28,7 @@ public class FormatoCliente implements Formato {
     public String getResult(String datos) {
         JSONObject json;
         URL restApi = null;
-        String res = "";
+        String res = "<p>";
         Factura fac = new FormatoJSON();
         json = fac.convertir(datos);
         System.out.println(json);        
@@ -43,7 +43,9 @@ public class FormatoCliente implements Formato {
             while ((inputLine = reader.readLine()) != null){
                 System.out.println(inputLine);
                 res += inputLine;
+                res += "</br>";
             }
+            res += "</p>";
         }catch (IOException x) {
             System.err.println(x);
         }

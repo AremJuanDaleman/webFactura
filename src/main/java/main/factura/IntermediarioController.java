@@ -103,8 +103,8 @@ public class IntermediarioController implements Runnable {
                     try{                                                                       
                         outputLine = "HTTP/1.1 200 OK\r\n"
                         + "Content-Type: text/html\r\n\r\n"                                        
-                        + "FACTURA ENVIADA EXITOSAMENTE"
-                        + facturaCliente+"\n";                                                      
+                        + "<h1> FACTURA ENVIADA EXITOSAMENTE\n </h1></br>"
+                        + facturaCliente + "\n";                                                      
                         out.println(outputLine);
                     
                     }catch(Exception e){
