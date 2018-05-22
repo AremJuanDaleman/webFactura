@@ -67,8 +67,8 @@ public class IntermediarioController implements Runnable {
             if(inputLine.startsWith("GET")){
                 String path = inputLine.split(" ")[1];
                 if(path.equals("/") || path.equals("/index.html")){                                        
-                    //File indexFile =new File("classes/index.html");                    
-                    File indexFile = new File("src/main/resources/index.html");                    
+                    File indexFile =new File("classes/index.html");                    
+                    //File indexFile = new File("src/main/resources/index.html");                    
                     String output="";
                     String text;                    
                     try {                        
