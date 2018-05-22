@@ -19,6 +19,7 @@ import org.json.JSONObject;
 import java.net.URL;
 import main.factura.api.Formato;
 import main.factura.api.FormatoCliente;
+import main.factura.api.FormatoDIAN;
 import main.factura.envio.EnvioCorreoFacturas;
 
 /**
@@ -94,11 +95,14 @@ public class IntermediarioController implements Runnable {
                       
                     
                     Formato f = new FormatoCliente();
+                    Formato d= new FormatoDIAN();
                     String facturaCliente = f.getResult(datos);
+                    String facturaDian = d.getResult(datos);
                     
                     
                     EnvioCorreoFacturas ev = new EnvioCorreoFacturas();
                     ev.send(facturaCliente);
+                    ev.send(facturaDian);
                     
                     try{                                                                       
                         outputLine = "HTTP/1.1 200 OK\r\n"
